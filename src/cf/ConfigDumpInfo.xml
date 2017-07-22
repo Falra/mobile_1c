@@ -14,8 +14,8 @@
 		<Metadata name="Catalog.Кошельки" id="d9de32ff-d55a-4b71-ae9a-db82660d0bab" configVersion="dbd8bfe744c81d47a7993669346df9be00000000"/>
 		<Metadata name="Catalog.Статьи" id="94b69209-9abf-4ad4-baef-3b726a2dc2b0" configVersion="dfde33244f947143a142f2201248b6ec00000000"/>
 		<Metadata name="Catalog.Статьи.Predefined" id="94b69209-9abf-4ad4-baef-3b726a2dc2b0.1c" configVersion="8679baa1820ba142a054e324e149fed400000000"/>
-		<Metadata name="CommonForm.РабочийСтол" id="44f07a3a-4d63-473a-98ee-053a024d0c2e" configVersion="76e07033974104449e3f22f3f0cdfed100000000"/>
-		<Metadata name="CommonForm.РабочийСтол.Form" id="44f07a3a-4d63-473a-98ee-053a024d0c2e.0" configVersion="2495cc570534304ebb7a28a6bd76d6e000000000"/>
+		<Metadata name="CommonForm.РабочийСтол" id="44f07a3a-4d63-473a-98ee-053a024d0c2e" configVersion="a567dfeaf7ca1a4e935d5d83d822904800000000"/>
+		<Metadata name="CommonForm.РабочийСтол.Form" id="44f07a3a-4d63-473a-98ee-053a024d0c2e.0" configVersion="56eb91983ecb5b4fbb02f8f44934b58e00000000"/>
 		<Metadata name="CommonPicture.Доход" id="5b1d2fc5-17f9-4256-932e-8b9d27afe5e2" configVersion="f7442ebe95c456468dffb923aef9c92a00000000"/>
 		<Metadata name="CommonPicture.Доход.Picture" id="5b1d2fc5-17f9-4256-932e-8b9d27afe5e2.0" configVersion="eb1bbccb927b11449dcc74161f9edb7500000000"/>
 		<Metadata name="CommonPicture.Расход" id="db6f58f7-92b3-4c59-8eba-94921815c581" configVersion="41c0afad5b552040b2050981f81d64be00000000"/>

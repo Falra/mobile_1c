@@ -60,10 +60,19 @@
 		</UsualGroup>
 		<Table name="Остатки" id="1">
 			<Representation>List</Representation>
+			<TitleLocation>Top</TitleLocation>
+			<ReadOnly>true</ReadOnly>
+			<Height>5</Height>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
 			<DataPath>Остатки</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остатки</v8:content>
+				</v8:item>
+			</Title>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ОстаткиКонтекстноеМеню" id="2"/>
 			<AutoCommandBar name="ОстаткиКоманднаяПанель" id="3">
@@ -109,11 +118,13 @@
 				<InputField name="ОстаткиКошелек" id="14">
 					<DataPath>Остатки.Кошелек</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<Width>10</Width>
 					<ContextMenu name="ОстаткиКошелекКонтекстноеМеню" id="15"/>
 					<ExtendedTooltip name="ОстаткиКошелекРасширеннаяПодсказка" id="16"/>
 				</InputField>
 				<InputField name="ОстаткиСумма" id="17">
 					<DataPath>Остатки.Сумма</DataPath>
+					<HorizontalAlign>Left</HorizontalAlign>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ОстаткиСуммаКонтекстноеМеню" id="18"/>
 					<ExtendedTooltip name="ОстаткиСуммаРасширеннаяПодсказка" id="19"/>
@@ -122,10 +133,19 @@
 		</Table>
 		<Table name="Затраты" id="20">
 			<Representation>List</Representation>
+			<TitleLocation>Top</TitleLocation>
+			<ReadOnly>true</ReadOnly>
+			<Height>5</Height>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
 			<DataPath>Затраты</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Затраты по статьям</v8:content>
+				</v8:item>
+			</Title>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ЗатратыКонтекстноеМеню" id="21"/>
 			<AutoCommandBar name="ЗатратыКоманднаяПанель" id="22">
@@ -165,7 +185,9 @@
 			<ChildItems>
 				<InputField name="ЗатратыСтатья" id="33">
 					<DataPath>Затраты.Статья</DataPath>
+					<HorizontalAlign>Left</HorizontalAlign>
 					<EditMode>EnterOnInput</EditMode>
+					<Width>10</Width>
 					<ContextMenu name="ЗатратыСтатьяКонтекстноеМеню" id="34"/>
 					<ExtendedTooltip name="ЗатратыСтатьяРасширеннаяПодсказка" id="35"/>
 				</InputField>
