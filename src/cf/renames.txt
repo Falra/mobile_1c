@@ -1,3 +1,6 @@
 ﻿ConfigDumpInfo.xml-->ConfigDumpInfo.xml
 Configuration.xml-->Configuration.xml
+Catalogs\Кошельки.xml-->Catalogs\Кошельки.xml
+Catalogs\Статьи.xml-->Catalogs\Статьи.xml
+Catalogs\Статьи\Ext\Predefined.xml-->Catalogs\Статьи\Ext\Predefined.xml
 Languages\Русский.xml-->Languages\Русский.xml

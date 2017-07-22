@@ -1,4 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
-	<ConfigVersions/>
+	<ConfigVersions>
+		<Metadata name="Catalog.Кошельки" id="d9de32ff-d55a-4b71-ae9a-db82660d0bab" configVersion="dbd8bfe744c81d47a7993669346df9be00000000"/>
+		<Metadata name="Catalog.Статьи" id="94b69209-9abf-4ad4-baef-3b726a2dc2b0" configVersion="dfde33244f947143a142f2201248b6ec00000000"/>
+		<Metadata name="Catalog.Статьи.Predefined" id="94b69209-9abf-4ad4-baef-3b726a2dc2b0.1c" configVersion="8679baa1820ba142a054e324e149fed400000000"/>
+		<Metadata name="Configuration.МоиДеньги" id="c1fd8d5e-8102-4f0b-ab72-4279240afd72" configVersion="f4a2ed36a33899469eadee6d471806dc00000000"/>
+		<Metadata name="Language.Русский" id="83a52b9d-a776-43cb-a13d-d214b7199f61" configVersion="c7808ef667a73f4e80fb9f26e65ae90b00000000"/>
+	</ConfigVersions>
 </ConfigDumpInfo>
