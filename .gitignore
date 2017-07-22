@@ -1,1 +1,17 @@
 distr
+#1C
+
+build/out
+build/ib
+
+out
+temp
+
+build/ib-copy
+build/ibservice/
+build/update-1c\.cmd
+
+# Logs
+logs
+
+.vscode
