@@ -1,6 +1,12 @@
 ﻿ConfigDumpInfo.xml-->ConfigDumpInfo.xml
 Configuration.xml-->Configuration.xml
+AccumulationRegisters\Затраты.xml-->AccumulationRegisters\Затраты.xml
+AccumulationRegisters\Кошельки.xml-->AccumulationRegisters\Кошельки.xml
 Catalogs\Кошельки.xml-->Catalogs\Кошельки.xml
 Catalogs\Статьи.xml-->Catalogs\Статьи.xml
 Catalogs\Статьи\Ext\Predefined.xml-->Catalogs\Статьи\Ext\Predefined.xml
+Documents\Доход.xml-->Documents\Доход.xml
+Documents\Расход.xml-->Documents\Расход.xml
+Documents\Доход\Ext\ObjectModule.bsl-->Documents\Доход\Ext\ObjectModule.bsl
+Documents\Расход\Ext\ObjectModule.bsl-->Documents\Расход\Ext\ObjectModule.bsl
 Languages\Русский.xml-->Languages\Русский.xml

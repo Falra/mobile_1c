@@ -1,10 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
 	<ConfigVersions>
+		<Metadata name="AccumulationRegister.Затраты" id="035e5cdb-fb34-4346-a6cf-1f6deef52003" configVersion="6c33228d2b46c64c9df0deced69ec44d00000000">
+			<Metadata name="AccumulationRegister.Затраты.Dimension.Статья" id="124c4b0e-e37a-4130-b986-07fb947bb6ed"/>
+			<Metadata name="AccumulationRegister.Затраты.Resource.Сумма" id="7b35995d-4425-423e-ae06-2a7989aca411"/>
+			<Metadata name="AccumulationRegister.Затраты.Attribute.Кошелек" id="a82d219f-b82a-48fa-8d8e-d706ee1d1e3a"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.Кошельки" id="d080308e-03fc-4104-b48b-dfc0162c0a82" configVersion="7d09c358866dad4f9b3a07ca5e3175f400000000">
+			<Metadata name="AccumulationRegister.Кошельки.Dimension.Кошелек" id="45eaaddb-3270-403b-bbd3-e029dc250ee3"/>
+			<Metadata name="AccumulationRegister.Кошельки.Attribute.Статья" id="a99981fd-a234-4690-8ee5-2f548b93d44a"/>
+			<Metadata name="AccumulationRegister.Кошельки.Resource.Сумма" id="fe7d6897-406c-4999-9e9e-70dc6a65ca07"/>
+		</Metadata>
 		<Metadata name="Catalog.Кошельки" id="d9de32ff-d55a-4b71-ae9a-db82660d0bab" configVersion="dbd8bfe744c81d47a7993669346df9be00000000"/>
 		<Metadata name="Catalog.Статьи" id="94b69209-9abf-4ad4-baef-3b726a2dc2b0" configVersion="dfde33244f947143a142f2201248b6ec00000000"/>
 		<Metadata name="Catalog.Статьи.Predefined" id="94b69209-9abf-4ad4-baef-3b726a2dc2b0.1c" configVersion="8679baa1820ba142a054e324e149fed400000000"/>
-		<Metadata name="Configuration.МоиДеньги" id="c1fd8d5e-8102-4f0b-ab72-4279240afd72" configVersion="f4a2ed36a33899469eadee6d471806dc00000000"/>
+		<Metadata name="Configuration.МоиДеньги" id="c1fd8d5e-8102-4f0b-ab72-4279240afd72" configVersion="9dbb068ccfce1c4685724cd1e1e7364200000000"/>
+		<Metadata name="Document.Доход" id="0384182b-5e45-479e-b9db-f0d3a8307ee7" configVersion="64bfb8a11d6cc64c9f35fe83bb58e95800000000">
+			<Metadata name="Document.Доход.Attribute.Статья" id="28608f18-b99f-4463-b7b0-12814c91acd2"/>
+			<Metadata name="Document.Доход.Attribute.Кошелек" id="8cfc3002-2885-48bb-9486-b709cb63af6a"/>
+			<Metadata name="Document.Доход.Attribute.Комментарий" id="c657a5b5-cad7-4237-a798-319b38466601"/>
+			<Metadata name="Document.Доход.Attribute.Сумма" id="d0c4fb7b-96c7-4c62-bd09-f317f298ab6f"/>
+		</Metadata>
+		<Metadata name="Document.Доход.ObjectModule" id="0384182b-5e45-479e-b9db-f0d3a8307ee7.0" configVersion="bb51112ed3717f4f9b85f139491a110800000000"/>
+		<Metadata name="Document.Расход" id="ab529e6f-3d9c-4699-b24e-e9ade0574dd9" configVersion="7bfebdfa35196b43930fb052758e9a0e00000000">
+			<Metadata name="Document.Расход.Attribute.Цель" id="6b2b22f1-c60a-434d-8df1-732e03e25ce5"/>
+			<Metadata name="Document.Расход.Attribute.Кошелек" id="bdfed028-6ef3-4c11-a76d-c540517c7702"/>
+			<Metadata name="Document.Расход.Attribute.Сумма" id="c173ae52-213d-4c8b-8fa0-8380d730af53"/>
+			<Metadata name="Document.Расход.Attribute.Комментарий" id="ca8b39e2-d207-49a5-9ede-b7847e4349a1"/>
+		</Metadata>
+		<Metadata name="Document.Расход.ObjectModule" id="ab529e6f-3d9c-4699-b24e-e9ade0574dd9.0" configVersion="cd95739db1362445a26cf9e746befab400000000"/>
 		<Metadata name="Language.Русский" id="83a52b9d-a776-43cb-a13d-d214b7199f61" configVersion="c7808ef667a73f4e80fb9f26e65ae90b00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

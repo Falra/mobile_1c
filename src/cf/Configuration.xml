@@ -125,6 +125,10 @@
 			<Language>Русский</Language>
 			<Catalog>Кошельки</Catalog>
 			<Catalog>Статьи</Catalog>
+			<Document>Доход</Document>
+			<Document>Расход</Document>
+			<AccumulationRegister>Кошельки</AccumulationRegister>
+			<AccumulationRegister>Затраты</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
