@@ -123,6 +123,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonForm>РабочийСтол</CommonForm>
 			<Catalog>Кошельки</Catalog>
 			<Catalog>Статьи</Catalog>
 			<Document>Доход</Document>

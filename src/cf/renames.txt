@@ -5,8 +5,11 @@ AccumulationRegisters\Кошельки.xml-->AccumulationRegisters\Кошель�
 Catalogs\Кошельки.xml-->Catalogs\Кошельки.xml
 Catalogs\Статьи.xml-->Catalogs\Статьи.xml
 Catalogs\Статьи\Ext\Predefined.xml-->Catalogs\Статьи\Ext\Predefined.xml
+CommonForms\РабочийСтол.xml-->CommonForms\РабочийСтол.xml
+CommonForms\РабочийСтол\Ext\Form.xml-->CommonForms\РабочийСтол\Ext\Form.xml
 Documents\Доход.xml-->Documents\Доход.xml
 Documents\Расход.xml-->Documents\Расход.xml
 Documents\Доход\Ext\ObjectModule.bsl-->Documents\Доход\Ext\ObjectModule.bsl
 Documents\Расход\Ext\ObjectModule.bsl-->Documents\Расход\Ext\ObjectModule.bsl
+Ext\HomePageWorkArea.xml-->Ext\HomePageWorkArea.xml
 Languages\Русский.xml-->Languages\Русский.xml

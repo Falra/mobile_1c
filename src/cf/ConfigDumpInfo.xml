@@ -14,7 +14,10 @@
 		<Metadata name="Catalog.Кошельки" id="d9de32ff-d55a-4b71-ae9a-db82660d0bab" configVersion="dbd8bfe744c81d47a7993669346df9be00000000"/>
 		<Metadata name="Catalog.Статьи" id="94b69209-9abf-4ad4-baef-3b726a2dc2b0" configVersion="dfde33244f947143a142f2201248b6ec00000000"/>
 		<Metadata name="Catalog.Статьи.Predefined" id="94b69209-9abf-4ad4-baef-3b726a2dc2b0.1c" configVersion="8679baa1820ba142a054e324e149fed400000000"/>
-		<Metadata name="Configuration.МоиДеньги" id="c1fd8d5e-8102-4f0b-ab72-4279240afd72" configVersion="9dbb068ccfce1c4685724cd1e1e7364200000000"/>
+		<Metadata name="CommonForm.РабочийСтол" id="44f07a3a-4d63-473a-98ee-053a024d0c2e" configVersion="0cd3e3423da5d847a34c4bc72d1564b400000000"/>
+		<Metadata name="CommonForm.РабочийСтол.Form" id="44f07a3a-4d63-473a-98ee-053a024d0c2e.0" configVersion="b6ec118c7009c240b1e86169a0542d0600000000"/>
+		<Metadata name="Configuration.МоиДеньги" id="c1fd8d5e-8102-4f0b-ab72-4279240afd72" configVersion="dcaf7b633150b84599839a6eeac66a2200000000"/>
+		<Metadata name="Configuration.МоиДеньги.HomePageWorkArea" id="69f7125c-3be3-47f5-bd07-1b9c13eca94f.8" configVersion="c7ffd7daa037444bb022737442a8b5ec00000000"/>
 		<Metadata name="Document.Доход" id="0384182b-5e45-479e-b9db-f0d3a8307ee7" configVersion="64bfb8a11d6cc64c9f35fe83bb58e95800000000">
 			<Metadata name="Document.Доход.Attribute.Статья" id="28608f18-b99f-4463-b7b0-12814c91acd2"/>
 			<Metadata name="Document.Доход.Attribute.Кошелек" id="8cfc3002-2885-48bb-9486-b709cb63af6a"/>
