@@ -66,7 +66,20 @@
 			<DataPath>Остатки</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ОстаткиКонтекстноеМеню" id="2"/>
-			<AutoCommandBar name="ОстаткиКоманднаяПанель" id="3"/>
+			<AutoCommandBar name="ОстаткиКоманднаяПанель" id="3">
+				<ChildItems>
+					<Button name="ОстаткиОбновить" id="45">
+						<Type>CommandBarButton</Type>
+						<Representation>Picture</Representation>
+						<CommandName>Form.Command.ОстаткиОбновить</CommandName>
+						<Picture>
+							<xr:Ref>StdPicture.Refresh</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="ОстаткиОбновитьРасширеннаяПодсказка" id="46"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
 			<ExtendedTooltip name="ОстаткиРасширеннаяПодсказка" id="4"/>
 			<SearchStringAddition name="ОстаткиСтрокаПоиска" id="5">
 				<AdditionSource>
@@ -115,7 +128,15 @@
 			<DataPath>Затраты</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ЗатратыКонтекстноеМеню" id="21"/>
-			<AutoCommandBar name="ЗатратыКоманднаяПанель" id="22"/>
+			<AutoCommandBar name="ЗатратыКоманднаяПанель" id="22">
+				<ChildItems>
+					<Button name="ЗатратыЗатратыОбновить" id="47">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ЗатратыОбновить</CommandName>
+						<ExtendedTooltip name="ЗатратыЗатратыОбновитьРасширеннаяПодсказка" id="48"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
 			<ExtendedTooltip name="ЗатратыРасширеннаяПодсказка" id="23"/>
 			<SearchStringAddition name="ЗатратыСтрокаПоиска" id="24">
 				<AdditionSource>
@@ -239,4 +260,40 @@
 			</Columns>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ОстаткиОбновить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остатки обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остатки обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОстаткиОбновить</Action>
+		</Command>
+		<Command name="ЗатратыОбновить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Затраты обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Затраты обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗатратыОбновить</Action>
+		</Command>
+	</Commands>
 </Form>
