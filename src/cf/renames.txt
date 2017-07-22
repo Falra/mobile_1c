@@ -7,9 +7,15 @@ Catalogs\Статьи.xml-->Catalogs\Статьи.xml
 Catalogs\Статьи\Ext\Predefined.xml-->Catalogs\Статьи\Ext\Predefined.xml
 CommonForms\РабочийСтол.xml-->CommonForms\РабочийСтол.xml
 CommonForms\РабочийСтол\Ext\Form.xml-->CommonForms\РабочийСтол\Ext\Form.xml
+CommonForms\РабочийСтол\Ext\Form\Module.bsl-->CommonForms\РабочийСтол\Ext\Form\Module.bsl
 Documents\Доход.xml-->Documents\Доход.xml
 Documents\Расход.xml-->Documents\Расход.xml
 Documents\Доход\Ext\ObjectModule.bsl-->Documents\Доход\Ext\ObjectModule.bsl
+Documents\Доход\Forms\ФормаДокумента.xml-->Documents\Доход\Forms\ФормаДокумента.xml
+Documents\Доход\Forms\ФормаДокумента\Ext\Form.xml-->Documents\Доход\Forms\ФормаДокумента\Ext\Form.xml
 Documents\Расход\Ext\ObjectModule.bsl-->Documents\Расход\Ext\ObjectModule.bsl
+Documents\Расход\Forms\ФормаДокумента.xml-->Documents\Расход\Forms\ФормаДокумента.xml
+Documents\Расход\Forms\ФормаДокумента\Ext\Form.xml-->Documents\Расход\Forms\ФормаДокумента\Ext\Form.xml
 Ext\HomePageWorkArea.xml-->Ext\HomePageWorkArea.xml
+Ext\MainSectionCommandInterface.xml-->Ext\MainSectionCommandInterface.xml
 Languages\Русский.xml-->Languages\Русский.xml
