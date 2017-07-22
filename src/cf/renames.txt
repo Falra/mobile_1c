@@ -8,6 +8,12 @@ Catalogs\Статьи\Ext\Predefined.xml-->Catalogs\Статьи\Ext\Predefined.
 CommonForms\РабочийСтол.xml-->CommonForms\РабочийСтол.xml
 CommonForms\РабочийСтол\Ext\Form.xml-->CommonForms\РабочийСтол\Ext\Form.xml
 CommonForms\РабочийСтол\Ext\Form\Module.bsl-->CommonForms\РабочийСтол\Ext\Form\Module.bsl
+CommonPictures\Доход.xml-->CommonPictures\Доход.xml
+CommonPictures\Расход.xml-->CommonPictures\Расход.xml
+CommonPictures\Доход\Ext\Picture.xml-->CommonPictures\Доход\Ext\Picture.xml
+CommonPictures\Доход\Ext\Picture\Picture.png-->CommonPictures\Доход\Ext\Picture\Picture.png
+CommonPictures\Расход\Ext\Picture.xml-->CommonPictures\Расход\Ext\Picture.xml
+CommonPictures\Расход\Ext\Picture\Picture.png-->CommonPictures\Расход\Ext\Picture\Picture.png
 Documents\Доход.xml-->Documents\Доход.xml
 Documents\Расход.xml-->Documents\Расход.xml
 Documents\Доход\Ext\ObjectModule.bsl-->Documents\Доход\Ext\ObjectModule.bsl

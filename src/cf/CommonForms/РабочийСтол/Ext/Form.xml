@@ -5,6 +5,59 @@
 		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
 	<ChildItems>
+		<UsualGroup name="ГруппаКнопки" id="39">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа кнопки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа кнопки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>StrongSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="40"/>
+			<ChildItems>
+				<Button name="КнопкаДоход" id="41">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Document.Доход.StandardCommand.Create</CommandName>
+					<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+					<Picture>
+						<xr:Ref>CommonPicture.Доход</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доход</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="КнопкаДоходРасширеннаяПодсказка" id="42"/>
+				</Button>
+				<Button name="КнопкаРасход" id="43">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Document.Расход.StandardCommand.Create</CommandName>
+					<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+					<Picture>
+						<xr:Ref>CommonPicture.Расход</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расход</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="КнопкаРасходРасширеннаяПодсказка" id="44"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 		<Table name="Остатки" id="1">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>

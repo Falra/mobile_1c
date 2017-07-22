@@ -123,6 +123,8 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonPicture>Доход</CommonPicture>
+			<CommonPicture>Расход</CommonPicture>
 			<CommonForm>РабочийСтол</CommonForm>
 			<Catalog>Кошельки</Catalog>
 			<Catalog>Статьи</Catalog>
