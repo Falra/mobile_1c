@@ -22,7 +22,7 @@
 		<Metadata name="CommonPicture.Доход.Picture" id="5b1d2fc5-17f9-4256-932e-8b9d27afe5e2.0" configVersion="eb1bbccb927b11449dcc74161f9edb7500000000"/>
 		<Metadata name="CommonPicture.Расход" id="db6f58f7-92b3-4c59-8eba-94921815c581" configVersion="41c0afad5b552040b2050981f81d64be00000000"/>
 		<Metadata name="CommonPicture.Расход.Picture" id="db6f58f7-92b3-4c59-8eba-94921815c581.0" configVersion="d0f3f607d45dd0478519b736b860d65800000000"/>
-		<Metadata name="Configuration.МоиДеньги" id="c1fd8d5e-8102-4f0b-ab72-4279240afd72" configVersion="7ce1233d485af14d9045ec892a6f018500000000"/>
+		<Metadata name="Configuration.МоиДеньги" id="c1fd8d5e-8102-4f0b-ab72-4279240afd72" configVersion="7cf7db4b9496294798971d62ba0060dd00000000"/>
 		<Metadata name="Configuration.МоиДеньги.HomePageWorkArea" id="69f7125c-3be3-47f5-bd07-1b9c13eca94f.8" configVersion="c7ffd7daa037444bb022737442a8b5ec00000000"/>
 		<Metadata name="Configuration.МоиДеньги.MainSectionCommandInterface" id="69f7125c-3be3-47f5-bd07-1b9c13eca94f.9" configVersion="3f5923e4f2329648b808bed7fd8c157000000000"/>
 		<Metadata name="Document.Доход" id="0384182b-5e45-479e-b9db-f0d3a8307ee7" configVersion="12ef8bbf9bfabf4895a2628a0bcd31c600000000">
@@ -43,8 +43,8 @@
 		<Metadata name="Document.Расход.Form.ФормаДокумента" id="6d135f56-b788-413c-8b01-b72d9419db2d" configVersion="19b9afedfc70d7458021d49e32c836a900000000"/>
 		<Metadata name="Document.Расход.Form.ФормаДокумента.Form" id="6d135f56-b788-413c-8b01-b72d9419db2d.0" configVersion="b9190335b3ea9f4db06feabf5f55c98700000000"/>
 		<Metadata name="Document.Расход.ObjectModule" id="ab529e6f-3d9c-4699-b24e-e9ade0574dd9.0" configVersion="cd95739db1362445a26cf9e746befab400000000"/>
-		<Metadata name="ExchangePlan.Мобильные" id="2db16146-1150-4ab5-b276-2d0d8c15e69a" configVersion="4288b0e03ec7cd4086ef3178a853812b00000000"/>
-		<Metadata name="ExchangePlan.Мобильные.Content" id="2db16146-1150-4ab5-b276-2d0d8c15e69a.1" configVersion="882265414ed96946957a0c3b2058a02600000000"/>
+		<Metadata name="ExchangePlan.Мобильные" id="accfb126-d20e-46e1-ba88-b5972e5d2d4b" configVersion="f5b8de31b289494ea56454da2c4a5e7900000000"/>
+		<Metadata name="ExchangePlan.Мобильные.Content" id="accfb126-d20e-46e1-ba88-b5972e5d2d4b.1" configVersion="fec34d32e233bc45890be33f0a93a4d000000000"/>
 		<Metadata name="Language.Русский" id="83a52b9d-a776-43cb-a13d-d214b7199f61" configVersion="c7808ef667a73f4e80fb9f26e65ae90b00000000"/>
 		<Metadata name="WebService.WebОбмен" id="d7fa126d-9f6d-4976-82af-4bcbf9d567e6" configVersion="66635134c4470d42a5e7106a6bb089ea00000000">
 			<Metadata name="WebService.WebОбмен.Operation.ВыполнитьОбмен.Parameter.ДанныеУстройства" id="1d2778ac-49cd-43be-a9cf-79d62d5a7209"/>
