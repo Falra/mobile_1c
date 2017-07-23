@@ -18,6 +18,7 @@
 					<v8:content>Группа кнопки</v8:content>
 				</v8:item>
 			</ToolTip>
+			<VerticalStretch>false</VerticalStretch>
 			<Representation>StrongSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="40"/>
@@ -56,12 +57,26 @@
 					</Title>
 					<ExtendedTooltip name="КнопкаРасходРасширеннаяПодсказка" id="44"/>
 				</Button>
+				<Button name="КнопкаОбновитьВсе" id="49">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<VerticalStretch>true</VerticalStretch>
+					<CommandName>Form.Command.ОбновитьВсе</CommandName>
+					<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+					<Picture>
+						<xr:Ref>StdPicture.Refresh</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="КнопкаОбновитьВсеРасширеннаяПодсказка" id="50"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 		<Table name="Остатки" id="1">
 			<Representation>List</Representation>
 			<TitleLocation>Top</TitleLocation>
 			<ReadOnly>true</ReadOnly>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
 			<Height>5</Height>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
@@ -131,10 +146,36 @@
 				</InputField>
 			</ChildItems>
 		</Table>
+		<UsualGroup name="ГруппаПериод" id="51">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа период</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа период</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПериодРасширеннаяПодсказка" id="52"/>
+			<ChildItems>
+				<InputField name="ПериодЗатрат" id="53">
+					<DataPath>ПериодЗатрат</DataPath>
+					<ContextMenu name="ПериодЗатратКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ПериодЗатратРасширеннаяПодсказка" id="55"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<Table name="Затраты" id="20">
 			<Representation>List</Representation>
 			<TitleLocation>Top</TitleLocation>
 			<ReadOnly>true</ReadOnly>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
 			<Height>5</Height>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
@@ -281,6 +322,17 @@
 				</Column>
 			</Columns>
 		</Attribute>
+		<Attribute name="ПериодЗатрат" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период затрат</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:StandardPeriod</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ОстаткиОбновить" id="1">
@@ -316,6 +368,21 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ЗатратыОбновить</Action>
+		</Command>
+		<Command name="ОбновитьВсе" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьВсе</Action>
 		</Command>
 	</Commands>
 </Form>
