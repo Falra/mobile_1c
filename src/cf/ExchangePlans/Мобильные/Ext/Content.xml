@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExchangePlanContent xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Item>
+		<Metadata>AccumulationRegister.Затраты</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Document.Доход</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.Статьи</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Document.Расход</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>AccumulationRegister.Кошельки</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.Кошельки</Metadata>
+		<AutoRecord>Allow</AutoRecord>
+	</Item>
+</ExchangePlanContent>

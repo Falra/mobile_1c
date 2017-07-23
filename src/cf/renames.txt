@@ -5,6 +5,8 @@ AccumulationRegisters\Кошельки.xml-->AccumulationRegisters\Кошель�
 Catalogs\Кошельки.xml-->Catalogs\Кошельки.xml
 Catalogs\Статьи.xml-->Catalogs\Статьи.xml
 Catalogs\Статьи\Ext\Predefined.xml-->Catalogs\Статьи\Ext\Predefined.xml
+CommonCommands\Обмен.xml-->CommonCommands\Обмен.xml
+CommonCommands\Обмен\Ext\CommandModule.bsl-->CommonCommands\Обмен\Ext\CommandModule.bsl
 CommonForms\РабочийСтол.xml-->CommonForms\РабочийСтол.xml
 CommonForms\РабочийСтол\Ext\Form.xml-->CommonForms\РабочийСтол\Ext\Form.xml
 CommonForms\РабочийСтол\Ext\Form\Module.bsl-->CommonForms\РабочийСтол\Ext\Form\Module.bsl
@@ -22,6 +24,12 @@ Documents\Доход\Forms\ФормаДокумента\Ext\Form.xml-->Documents
 Documents\Расход\Ext\ObjectModule.bsl-->Documents\Расход\Ext\ObjectModule.bsl
 Documents\Расход\Forms\ФормаДокумента.xml-->Documents\Расход\Forms\ФормаДокумента.xml
 Documents\Расход\Forms\ФормаДокумента\Ext\Form.xml-->Documents\Расход\Forms\ФормаДокумента\Ext\Form.xml
+ExchangePlans\Мобильные.xml-->ExchangePlans\Мобильные.xml
+ExchangePlans\Мобильные\Ext\Content.xml-->ExchangePlans\Мобильные\Ext\Content.xml
 Ext\HomePageWorkArea.xml-->Ext\HomePageWorkArea.xml
 Ext\MainSectionCommandInterface.xml-->Ext\MainSectionCommandInterface.xml
 Languages\Русский.xml-->Languages\Русский.xml
+WebServices\WebОбмен.xml-->WebServices\WebОбмен.xml
+WebServices\WebОбмен\Ext\Module.bsl-->WebServices\WebОбмен\Ext\Module.bsl
+XDTOPackages\WebОбмен.xml-->XDTOPackages\WebОбмен.xml
+XDTOPackages\WebОбмен\Ext\Package.bin-->XDTOPackages\WebОбмен\Ext\Package.bin
